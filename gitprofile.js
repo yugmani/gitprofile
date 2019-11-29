@@ -14,6 +14,10 @@ const blog = document.querySelector(".blog");
 const htmlUrl = document.querySelector(".gitUrl");
 // const location = res.data.location;
 
+// const puppeteer = require('puppeteer');
+// const fs = require('fs');
+// const path = require('path');
+
 const client_id = "Iv1.e2d89256ac13d5a2";
 const client_secret = "38270cbb1588a0abddf29e90afbd45cbf0e76ca1";
 
@@ -80,15 +84,49 @@ const viewData = () =>{
 
 
 inputImage.addEventListener("click", ()=>{
-box.style.display = "none";
-// startDiv.style.display = "none";
-// console.log("hello");
+//box.style.display = "none";
+
 showData();
 viewData();
+
 
 })
 
 
 
+
+// const createPdf = async()=>{
+//     try {
+
+//     const browser = await puppeteer.launch({headless: true});
+   
+//     const page = await browser.newPage();
+//     //const html = await fs.readFile('index.html', 'utf-8');
+
+//     const options = {
+//         path: 'myProfile.pdf', 
+//         format: 'A4',
+//         printBackground: true
+//     };
+
+//     await page.goto('https://yugmani.github.io/gitprofile/', { waitUntil:'networkidle2'});
+    
+//     await page.pdf(options);
+//     await page.emulateMediaType('screen');
+    
+
+//     console.log("done");
+   
+   
+//     await browser.close();
+//     // process.exit();
+
+// } catch(e){
+//     console.log("Here is error", e);
+// }
+    
+// };
+
+// // createPdf();
 
 
