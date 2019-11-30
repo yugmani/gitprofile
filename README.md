@@ -17,4 +17,8 @@ c. When username is accepted, it will generate a pdf file: profile.pdf in the sa
 5. System:
 a. HTML, CSS, Javascript;
 b. Node js, Node modules; Puppeteer; 
-b. Axios, Inquirer, github api .
+b. Axios, Inquirer, github api.
+
+6. Giphy animation:
+a. giphy animation is added in images subdirectory: images/animated-giphy.gif.
+
