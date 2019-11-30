@@ -20,5 +20,5 @@ b. Node js, Node modules; Puppeteer;
 b. Axios, Inquirer, github api.
 
 6. Giphy animation:
-a. giphy animation is added in images subdirectory: images/animated-giphy.gif.
+a. giphy animation is added in images subdirectory: images/Animated GIF-downsized.gif.
 
