@@ -15,6 +15,6 @@ b. It will prompt to input a github username.
 c. When username is accepted, it will generate a pdf file: profile.pdf in the same directory.
 
 5. System:
-a. HTML, CSS, Javascript
+a. HTML, CSS, Javascript;
 b. Node js, Node modules; Puppeteer; 
 b. Axios, Inquirer, github api .
